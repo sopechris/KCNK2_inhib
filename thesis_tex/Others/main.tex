@@ -1,0 +1,158 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{bbold}
+\usepackage{afterpage}
+\usepackage{subcaption}
+\usepackage{float}
+\graphicspath{{Images/}}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+
+\algnewcommand\And{\textbf{and }}
+\algnewcommand\Or{\textbf{or }}
+\usepackage{fancyhdr}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+
+\pagestyle{fancy}
+\begin{document}
+
+\definecolor{light-gray}{gray}{0.87}  
+
+\begin{titlepage}
+\hspace*{-3.5cm}
+    \begin{minipage}{\textwidth}
+        \vspace{-2.5cm}
+        \begin{center}
+    
+
+            \includegraphics[width=\paperwidth]{LogoEHU.PNG}
+        \end{center}
+    \end{minipage}
+
+\vspace{1cm}
+
+\hspace{-3.1cm}
+\noindent\fcolorbox {light-gray}{white}{
+
+    \parbox{\paperwidth}{
+     \begin{center}
+     \large Final Degree Project
+    \\
+             \large Physics Degree
+
+\end{center}
+    }
+    }
+
+
+\vspace{0.8cm}
+
+\noindent\hspace*{-2.5cm}%
+\colorbox{light-gray}{\begin{minipage}{\paperwidth}%
+
+    \vspace{1cm}
+
+    \color{RoyalBlue}
+    \centering\Large\textbf{ Activity Prediction for Intermediate Conductance\\ Calcium-Activated Potassium Channel Inhibitors\\ using Random Forest}
+
+
+
+    \vspace{7cm}\mbox{}
+  \end{minipage}
+}
+
+\begin{flushright}
+ Author:
+\\
+Christian Dorado Cerrato
+\\
+ Directors:
+\\
+Aitor Bergara Jauregui
+\\
+Aritz Leonardo Liceranzu
+
+\end{flushright}
+
+\begin{center}
+\noindent\fcolorbox {white}{white}{
+
+    \parbox{11cm}{
+         \begin{center}
+    \footnotesize © 2022, Christian Dorado 
+    \\
+   \small http://es.creativecommons.org/blog/licencias/
+
+        \end{center}
+    }
+    }
+\end{center}
+
+\hspace{-3.2cm}
+\noindent\fcolorbox {light-gray}{white}{
+    \begin{minipage}[]{1000pt}
+
+        \parbox{\paperwidth}{
+            \begin{center}
+    
+                 Leioa, $4^{th}$ October 2022
+
+            \end{center}
+        }
+    \end{minipage}
+}
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Hemendik aurrera hasi lana idazten%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+\begin{center}
+Ion channels, located in the membrane of cells, are a great deal when referring to regulation of ion transport in our body. Potassium channel inhibitors play a grand role in the regulation and so-called intermediate conductance of this well-known and mapped channel called SK4. Using machine learning techniques, the inhibitory capacity of any molecule can be addressed by approximation, giving very good results and not having to wait for yearlong biological simulations. This allows to target potentially functional drugs much faster and easier, without that much computer and time expense.
+\end{center}
+\vspace{10cm}
+Another approach can be given. After the ``Introduction" section, you may begin to explore the procedure in the ``Application" section and return to the ``Machine Learning" section if needed to better understand the concepts used.
+
+
+
+\end{abstract}
+\tableofcontents
+
+\chapter{Introduction}
+\input{Chapters/Introduction}
+
+\chapter{Machine Learning}
+\input{Chapters/Methods}
+
+\chapter{Application}
+\input{Chapters/Results}
+
+\chapter{Discussion}
+\input{Chapters/Discussion}
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\pagestyle{plain}
+
+
+
+
+\end{document}
+
+
+\end{document}
