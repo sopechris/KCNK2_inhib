@@ -16,6 +16,15 @@ In this repository, you can find all the materials related to my Bachelor's thes
 
 The thesis explores how ion channels, located in the membrane of cells, are a great deal when referring to regulation of ion transport in our body. Potassium channel inhibitors play a grand role in the regulation and so-called intermediate conductance of this well-known and mapped channel called SK4. Using machine learning techniques, the inhibitory capacity of any molecule can be addressed by approximation, giving very good results and not having to wait for yearlong biological simulations. This allows to target potentially functional drugs much faster and easier, without that much computer and time expense.
 
+## 🔁 Dependencies
+
+Some notebooks rely on custom modules from the [`pipeline`](https://github.com/sopechris/pipeline) repository. 
+
+To run the notebooks successfully, make sure to:
+1. Clone the `pipeline` repository:
+   ```bash
+   git clone https://github.com/sopechris/pipeline.git
+   
 ## 🛠️ How to Compile the Thesis
 
 To compile the LaTeX source into a PDF:
