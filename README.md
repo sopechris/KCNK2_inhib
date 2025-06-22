@@ -24,6 +24,15 @@ To run the notebooks successfully, make sure to:
 1. Clone the `pipeline` repository:
    ```bash
    git clone https://github.com/sopechris/pipeline.git
+
+## 🔐 Data Availability
+
+The datasets used in this project are **not included** in this repository due to privacy or institutional restrictions.
+
+As a result:
+- The Jupyter notebooks are already executed and display the full analysis and results.
+- However, **running the notebooks from scratch without the data will result in errors.**
+
    
 ## 🛠️ How to Compile the Thesis
 
