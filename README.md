@@ -1,8 +1,5 @@
 # Bachelor's Thesis: Activity Prediction for Intermediate Conductance Calcium-Activated Potassium Channel Inhibitors using Random Forest.
 
-```
-![Visitor Count](https : //profile-counter.glitch.me/sopechris/count.svg)
-```
 In this repository, you can find all the materials related to my Bachelor's thesis, completed at Universidad del Pais Vasco (EHU).
 
 ## 📄 Contents
